@@ -83,6 +83,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--second-title-color);
+  cursor: pointer;
 }
 
 .attribute-title {
@@ -176,6 +177,7 @@ body {
 
 .btn-item {
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .btn-item:hover,
