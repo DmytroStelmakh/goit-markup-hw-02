@@ -8,13 +8,12 @@
   --btn-item-color: #f5f4fa;
   --footer-contact: rgba(255, 255, 255, 0.6);
   --team-color: #f5f4fa;
-  --background-color: #e5e5e5;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--header-color);
-  background-color: var(--background-color);
+  background-color: var(--primary-title-color);
 }
 
 .list {
@@ -93,7 +92,7 @@ body {
 }
 
 .btn-title {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -170,6 +169,7 @@ body {
 }
 
 .address-city {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
